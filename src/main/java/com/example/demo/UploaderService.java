@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -83,5 +84,9 @@ public class UploaderService {
             createdFiles.add(createdFile);
         }
         return createdFiles ;
+    }
+
+    public void process(UUID clientId, UUID fileId, String crc, InputStream inputStream){
+
     }
 }

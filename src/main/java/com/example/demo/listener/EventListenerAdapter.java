@@ -5,5 +5,5 @@ package com.example.demo.listener;
  * @date 2018-01-11
  * @since 1.0
  */
-public abstract class UploaderListenerAdapter implements UploaderListener {
+public abstract class EventListenerAdapter implements EventListener {
 }
